@@ -64,6 +64,7 @@ The purpose of doing this is to hide the header and footer:
 ![](https://www.codeproject.com/KB/Articles/5347275/03.png)
 
 **2. Set paper size**
+
 Example 1:
 ```
 @page {
@@ -97,6 +98,7 @@ For more options/info on the CSS of @page, you may refer:
 https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size
 
 **3. Wrap all content within a DIV with fixed width and margin**
+
 Example:
 ```
 <div class="page">
@@ -121,6 +123,7 @@ The "**margin: auto**" will align the div block at center horizontally.
 "**margin-top: 10mm**", will provide space between the main block and the edge of the paper at top section.
 
 **4. Use CSS of "page-break-always" to split between pages.**
+
 To split pages, use a "div" and style with CSS of "page-break-after".
 ```
 page-break-after: always
@@ -147,6 +150,7 @@ Example:
 </div>
 ```
 **5. All fonts must already installed or hosted in your website**
+
 The font rendering might not be working properly if the fonts are hosted at 3rd party's server, for example: Google Fonts. Try install the fonts into your server Windows OS or host the fonts within your website.
 
 The sample of full HTML page:
