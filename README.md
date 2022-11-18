@@ -61,7 +61,7 @@ There are a few necessary CSS that you have to include in the HTML page in order
 ```
 The purpose of doing this is to hide the header and footer:
 
-~[](https://www.codeproject.com/KB/Articles/5347275/03.png)
+![](https://www.codeproject.com/KB/Articles/5347275/03.png)
 
 **2. Set paper size**
 Example 1:
