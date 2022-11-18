@@ -208,7 +208,8 @@ The font rendering might not be working properly if the fonts are hosted at 3rd 
 
 </html>
 ```
-For the details of how the C# code works in behind, you can continue to read it at the following article:
+For the details of how the C# code works in behind, you can continue to read the following article at
 
 [adriancs.com](https://adriancs.com/aspnet-webforms/433/convert-html-to-pdf-with-chrome-in-asp-net-webforms/) or
+
 [codeproject.com](https://www.codeproject.com/Articles/5347275/Convert-HTML-to-PDF-with-Chrome-in-ASP-NET-WebForm)
