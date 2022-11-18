@@ -153,7 +153,7 @@ Example:
 
 The font rendering might not be working properly if the fonts are hosted at 3rd party's server, for example: Google Fonts. Try install the fonts into your server Windows OS or host the fonts within your website.
 
-The sample of full HTML page:
+## The sample of full HTML page:
 ``` 
 <!DOCTYPE html>
 <html lang="en">
