@@ -52,6 +52,7 @@ There are a few necessary CSS that you have to include in the HTML page in order
 3. Wrap all content within a "div" with fixed width and margin
 4. Use CSS of page-break-always to split between pages.
 5. All fonts must already installed or hosted in your website
+6. URL links for images, external css stylesheet reference must include the root path.
 
 **1. Set page margin to 0 (zero)**
 ```
@@ -152,6 +153,22 @@ Example:
 **5. All fonts must already installed or hosted in your website**
 
 The font rendering might not be working properly if the fonts are hosted at 3rd party's server, for example: Google Fonts. Try install the fonts into your server Windows OS or host the fonts within your website.
+
+**6. URL links for images, external css stylesheet reference must include the root path.**
+
+For example, the following img tag might not be rendered properly. The image has the potential to be missing in the final rendered PDF output.
+
+```
+<img src="logo.png" />
+```
+In stead, include the root path like this:
+```
+<img src="/logo.png" />
+```
+or
+```
+<img src="/images/logo.png" />
+```
 
 ## The sample of full HTML page:
 ``` 
