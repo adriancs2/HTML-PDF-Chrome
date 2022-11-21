@@ -64,6 +64,14 @@
     <Content Include="Default.aspx" />
     <Content Include="loading.gif" />
     <Content Include="pdf.jpg" />
+    <Content Include="sample_html\basic.html" />
+    <Content Include="sample_html\form1.html" />
+    <Content Include="sample_html\invoice1.html" />
+    <Content Include="sample_html\invoice2.html" />
+    <Content Include="sample_html\invoice3.html" />
+    <Content Include="sample_html\invoice4.html" />
+    <Content Include="sample_html\logo_invoice2.png" />
+    <Content Include="sample_html\logo_invoice3.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -77,6 +85,7 @@
     </Compile>
     <Compile Include="pdf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sample_html.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

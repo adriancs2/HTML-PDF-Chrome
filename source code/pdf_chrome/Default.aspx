@@ -24,8 +24,8 @@
             font-weight: bold;
             font-size: 10pt;
             color: #5b5b5b;
-            height: calc(100vh - 200px);
-            width: calc(100vw - 60px);
+            height: calc(100vh - 300px);
+            width: calc(100vw - 80px);
             margin-top: 10px;
             padding: 10px;
         }
@@ -66,6 +66,7 @@
 
     <h1>Convert HTML to PDF by Using Chrome</h1>
 
+    Project Site: <a href="https://github.com/adriancs2/HTML-PDF-Chrome">github.com</a><br />
     Tutorial: <a href="https://adriancs.com/aspnet-webforms/433/convert-html-to-pdf-with-chrome-in-asp-net-webforms/">adriancs.com</a> | <a href="https://www.codeproject.com/Articles/5347275/Convert-HTML-to-PDF-with-Chrome-in-ASP-NET-WebForm">CodeProject.com</a>
 
     <br />
@@ -74,9 +75,21 @@
     <form id="form1" runat="server">
         <asp:Button ID="btGeneratePdfAttachment" runat="server" Text="Generate PDF (download as attachment)" OnClick="btGeneratePdfAttachment_Click" OnClientClick="showLoading();" />
         <asp:Button ID="btGeneratePdfInline" runat="server" Text="Generate PDF (display as inline)" OnClick="btGeneratePdfInline_Click" OnClientClick="showLoading();" />
-        <asp:Button ID="btPreview" runat="server" Text="Preview HTML Rendering" OnClick="btPreview_Click" />
+        <asp:Button ID="btPreview" runat="server" Text="Preview HTML Rendering" OnClick="btPreview_Click" /><br />
+        <br />
+        Load Sample HTML:
+        <asp:Button ID="btLoadBasic" runat="server" Text="Basic" OnClick="btLoadBasic_Click" />
+        <asp:Button ID="btLoadInvoice1" runat="server" Text="Invoice 1" OnClick="btLoadInvoice1_Click" />
+        <asp:Button ID="btLoadInvoice2" runat="server" Text="Invoice 2" OnClick="btLoadInvoice2_Click" />
+        <asp:Button ID="btLoadInvoice3" runat="server" Text="Invoice 3" OnClick="btLoadInvoice3_Click" />
+        <asp:Button ID="btLoadInvoice4" runat="server" Text="Invoice 4" OnClick="btLoadInvoice4_Click" />
+        <asp:Button ID="btLoadForm1" runat="server" Text="Form 1" OnClick="btLoadForm1_Click" /><br />
+        <br />
+        Edit HTML:
         <asp:TextBox ID="txt" runat="server" TextMode="MultiLine" spellcheck="false" ValidateRequestMode="Disabled"></asp:TextBox>
     </form>
+
+
 
     <div id="divLoading" class="divLoading" onclick="hideLoading();">
         <img src="loading.gif" /><br />
