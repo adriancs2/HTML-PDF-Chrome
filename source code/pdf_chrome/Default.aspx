@@ -50,7 +50,7 @@
             font-family: Arial;
             z-index: 9;
             position: fixed;
-            top: calc(50vh - 150px);
+            top: calc(50vh - 160px);
             left: calc(50vw - 180px);
             border: 10px solid #7591ef;
             border-radius: 25px;
