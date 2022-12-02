@@ -1,4 +1,4 @@
-# HTML to PDF Converter
+# HTML to PDF Converter by Using Chrome.exe
 Convert HTML to PDF with Chrome in ASP.NET WebForms
 
 Live Demo: http://html-pdf.adriancs.com
