@@ -3,7 +3,7 @@ Convert HTML to PDF with Chrome in ASP.NET WebForms
 
 Live Demo: http://html-pdf.adriancs.com
 
-*Note: Using Microsoft Edge as PDF Generator is better Chrome.exe. Read More: [https://github.com/adriancs2/HTML-PDF-Edge](https://github.com/adriancs2/HTML-PDF-Edge)
+*Note: Using Microsoft Edge as PDF Generator is better than Chrome.exe. Read More: [https://github.com/adriancs2/HTML-PDF-Edge](https://github.com/adriancs2/HTML-PDF-Edge)
 
 ## The Basic Idea
 
