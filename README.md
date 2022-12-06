@@ -5,6 +5,18 @@ Live Demo: http://html-pdf.adriancs.com
 
 *Note: Using Microsoft Edge as PDF Generator is better than Chrome.exe. Read More: [https://github.com/adriancs2/HTML-PDF-Edge](https://github.com/adriancs2/HTML-PDF-Edge)
 
+There are some drawbacks for using Chrome.exe as HTML to PDF converter.
+
+The main drawback is the permission to execute an EXE. Due to security issues, web hosting environments will prohibit the direct execution of an EXE.
+
+If you try to run this at local IIS, you have to set the identity of Application Pool to "**LocalSystem**" to allow the pool to run external EXE.
+
+![](https://raw.githubusercontent.com/adriancs2/HTML-PDF-Edge/main/wiki/screenshot3.png)
+
+Therefore, although it is still possible to run **Chrome.exe** over a web server, it's highly not recommended to do so. That's why using Edge is a very good alternative compared to "Chrome.exe".
+
+Read more about [Using Microsoft Edge to Convert HTML to PDF](https://github.com/adriancs2/HTML-PDF-Edge)
+
 ## The Basic Idea
 
 Chrome has a built-in function for generating PDF for a HTML page.
